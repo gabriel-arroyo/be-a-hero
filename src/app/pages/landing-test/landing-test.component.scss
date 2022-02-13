@@ -1,0 +1,40 @@
+.test-background {
+  background-image: url("../../../assets/images/1x/pincel2.png");
+  width: 100vw;
+  height: 100vh;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: auto 80%;
+}
+
+.logo {
+  width: 6rem;
+  height: 6rem;
+  position: fixed;
+  top: 5%;
+  left: 5%;
+}
+
+.title {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+  font-family: "LeviBrush", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 5rem;
+  top: 30%;
+}
+
+.subtitle {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+  font-family: "Passion One", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 4rem;
+  top: 15%;
+}

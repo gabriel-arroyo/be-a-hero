@@ -5,7 +5,9 @@
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "paths": {
-      "@pages/*":["app/pages/*"],
+      "@pages/*":["src/app/pages/*"],
+      "@components/*":["src/app/components/*"],
+      "@assets/*":["src/assets/*"],
     },
     "forceConsistentCasingInFileNames": true,
     "strict": true,
