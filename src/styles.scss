@@ -1,4 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Passion One";
+    src: local("Passion One"), url(./assets/fonts/PassionOne-Regular.otf) format("truetype");
+}   
+@font-face {
+    font-family: "LeviBrush";
+    src: local("LeviBrush"), url(./assets/fonts/LEVIBRUSH.TTF) format("truetype");
+} 
+@font-face {
+    font-family: "Capture it";
+    src: local("Capture it"), url(./assets/fonts/Capture-it.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Myriad Pro";
+    src: local("Myriad Pro"), url(./assets/fonts/Myriad-Pro-Regular.ttf) format("truetype");
+} 
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.passion{
+    font-family: "Myriad Pro", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
