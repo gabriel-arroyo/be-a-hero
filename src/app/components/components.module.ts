@@ -2,20 +2,25 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { QuestionComponent } from './question/question.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ButtonComponent } from './button/button.component';
+import { RouterModule } from '@angular/router';
 
 
 
 @NgModule({
   declarations: [
     QuestionComponent,
-    NavbarComponent
+    NavbarComponent,
+    ButtonComponent
   ],
   exports:[
     QuestionComponent,
-    NavbarComponent
+    NavbarComponent,
+    ButtonComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ]
 })
 export class ComponentsModule { }

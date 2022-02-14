@@ -12,6 +12,8 @@ import { NutritionComponent } from './nutrition/nutrition.component';
 import { TrainingComponent } from './training/training.component';
 import { CombatComponent } from './combat/combat.component';
 import { ComponentsModule } from '@components/components.module';
+import { SalesComponent } from './sales/sales.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -24,11 +26,13 @@ import { ComponentsModule } from '@components/components.module';
     MeditationComponent,
     NutritionComponent,
     TrainingComponent,
-    CombatComponent
+    CombatComponent,
+    SalesComponent
   ],
   imports: [
-    CommonModule,
-    ComponentsModule
+  CommonModule,
+    ComponentsModule,
+    RouterModule
   ]
 })
 export class PagesModule { }

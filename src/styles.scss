@@ -19,6 +19,9 @@
     url(./assets/fonts/Myriad-Pro-Regular.ttf) format("truetype");
 }
 
+* {
+  box-sizing: border-box;
+}
 html,
 body {
   height: 100%;

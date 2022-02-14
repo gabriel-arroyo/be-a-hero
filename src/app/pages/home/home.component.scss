@@ -28,19 +28,19 @@ $purple: #a593e0;
 
 .center {
   align-items: center;
-  width: 100%;
-  max-width: 1200px;
+  width: 100vw;
+  // max-width: 1200px;
   text-align: center;
   margin: auto;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   padding: 10px;
 }
 
 .foo-image {
-  height: 50vh;
   width: auto;
+  height: 30vw;
   padding: 10px 1px;
   border: none;
   outline: none;

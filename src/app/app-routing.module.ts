@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { SalesComponent } from '@pages/sales/sales.component';
 import { HomeComponent } from './pages/home/home.component';
 import { LandingTestComponent } from './pages/landing-test/landing-test.component';
 import { LevelsComponent } from './pages/levels/levels.component';
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path: 'nutrition', component: NutritionComponent },
   { path: 'payment', component: PaymentComponent },
   { path: 'training', component: TrainingComponent },
+  {path: 'sales', component: SalesComponent },
   { path: '', redirectTo:'/home', pathMatch:'full'},
   { path: '**', component: HomeComponent },
 ];
