@@ -21,6 +21,8 @@ const routes: Routes = [
   { path: 'nutrition', component: NutritionComponent },
   { path: 'payment', component: PaymentComponent },
   { path: 'training', component: TrainingComponent },
+  { path: '', redirectTo:'/home', pathMatch:'full'},
+  { path: '**', component: HomeComponent },
 ];
 
 @NgModule({

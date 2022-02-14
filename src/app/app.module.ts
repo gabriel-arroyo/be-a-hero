@@ -14,11 +14,11 @@ import { ComponentsModule } from './components/components.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     RouterModule,
     BrowserAnimationsModule,
     PagesModule,
-    ComponentsModule
+    ComponentsModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

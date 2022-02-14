@@ -15,6 +15,18 @@
   left: 5%;
 }
 
+.social-area {
+  position: fixed;
+  right: 2%;
+  bottom: 2%;
+}
+.social-icon {
+  cursor: pointer;
+  margin: 3px;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
 .title {
   position: fixed;
   left: 50%;
@@ -22,6 +34,7 @@
   width: 100%;
   text-align: center;
   font-family: "LeviBrush", Arial, Helvetica, sans-serif;
+  color: #00ff00;
   text-transform: uppercase;
   font-size: 5rem;
   top: 30%;

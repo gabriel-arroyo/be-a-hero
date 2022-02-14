@@ -12,21 +12,14 @@ $purple: #a593e0;
   background-size: auto 80%;
 }
 
-.logo {
-  width: 6rem;
-  height: 6rem;
-  position: fixed;
-  top: 5%;
-  left: 5%;
-}
-
 .page-name {
   z-index: 2;
   position: fixed;
   right: 0;
-  bottom: -10%;
-  height: 20rem;
-  width: auto;
+  bottom: 0;
+  width: 20vw;
+  min-width: 150px;
+  height: auto;
 }
 
 * {
@@ -96,7 +89,7 @@ $purple: #a593e0;
   }
 }
 .field {
-  margin-top: 10%;
+  margin-top: 2%;
   position: relative;
   padding: 10px;
 }

@@ -11,6 +11,7 @@ import { MeditationComponent } from './meditation/meditation.component';
 import { NutritionComponent } from './nutrition/nutrition.component';
 import { TrainingComponent } from './training/training.component';
 import { CombatComponent } from './combat/combat.component';
+import { ComponentsModule } from '@components/components.module';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { CombatComponent } from './combat/combat.component';
     CombatComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    ComponentsModule
   ]
 })
 export class PagesModule { }

@@ -1,0 +1,39 @@
+.logo {
+  width: 5vw;
+  min-width: 50px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.navitem,
+.navlink {
+  text-transform: capitalize;
+  font-family: "Capture it", "Courier New", Courier, monospace;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  user-select: none;
+  line-height: 1.5rem;
+}
+
+.navlink {
+  cursor: pointer;
+}
+
+.navstatus {
+  font-family: "Passion One", "Courier New", Courier, monospace;
+  background-color: black;
+  color: #00ff00;
+  font-size: 1.5rem;
+  padding: 6px 5vw;
+  border-radius: 500px;
+}
